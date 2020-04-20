@@ -39,7 +39,7 @@ public class TestLogin {
 	@AfterSuite
 	public void tearDown() {
 		
-//		driver.quit();
+		driver.quit();
 		
 	}
 	
