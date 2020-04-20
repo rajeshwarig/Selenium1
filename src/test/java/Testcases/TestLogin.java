@@ -31,15 +31,17 @@ public class TestLogin {
 	@Test
 	public void Login() {
 		
-		driver.findElement(By.id("identifierId")).sendKeys("tselenium26");
+		driver.findElement(By.id("identifierId")).sendKeys("rajeshwari.g");
 		driver.findElement(By.id("identifierId")).sendKeys(Keys.ENTER);
+		
+		
 		
 	}
 	
 	@AfterSuite
 	public void tearDown() {
 		
-		driver.quit();
+//		driver.quit();
 		
 	}
 	
